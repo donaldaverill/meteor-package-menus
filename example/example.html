@@ -1,0 +1,15 @@
+<head>
+  <title>Menus example</title>
+</head>
+
+<body>
+  <h1>Welcome to the Menus Example!</h1>
+
+  {{> menu}}
+</body>
+
+<template name="menu">
+  {{#each menuItem in (Menus 'Main')}}
+    <a href='{{menuItem.route}}'>{{menuItem.content}}</a><br>
+  {{/each}}
+</template>
