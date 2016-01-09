@@ -1,6 +1,6 @@
 Package.describe({
   name: 'fourquet:menus',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Simple menuing for Meteor',
   git: 'https://github.com/fourquet/meteor-package-menus.git',
   documentation: 'README.md',
