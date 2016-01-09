@@ -24,8 +24,8 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('ecmascript@0.1.6', ['client', 'server']);
-  api.use('tinytest', ['client', 'server']);
-  api.use('fourquet:menus', ['client', 'server']);
-  api.addFiles('menus-tests.js', ['client', 'server']);
+  api.use('ecmascript@0.1.6', ['client']);
+  api.use('tinytest', ['client']);
+  api.use('fourquet:menus', ['client']);
+  api.addFiles('menus-tests.js', ['client']);
 });
