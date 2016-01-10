@@ -1,11 +1,9 @@
-# Menus for Meteor
+# Menus for Meteor [![Build Status](https://travis-ci.org/fourquet/meteor-package-menus.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-menus)
 
 Simple menuing for Meteor
 
 ### Install
 `meteor add fourquet:menus`
-
-[![Build Status](https://travis-ci.org/fourquet/meteor-package-menus.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-menus)
 
 Example using Blaze (not required):
 ```html
